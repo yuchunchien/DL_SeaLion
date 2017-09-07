@@ -11,3 +11,5 @@ Our project takes images of sea lions as input and provides the counting results
 a) Crop_test_image.ipynb: Crop original pictures as fixed-sized images. The default size of the cropped image is 416*416.
 
 b) bad_id.txt: Ids of the raw images which have problems.
+
+c) parse_files.ipynb: Generate localization ground truth for training with different options. Although locations of each sea lion in the raw images have been labeled with dots, the range of each sea lion was not defined. Since the range is essential for training object identification algorithms, we define several types of generating criteria for localization ground truth. 
