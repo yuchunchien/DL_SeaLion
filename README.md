@@ -16,3 +16,6 @@ Our project takes images of sea lions as input and provides the counting results
 Fixed-sized square criterion estimates the range with a square of size D*D. The default values of D are 32 and 64. 
 
 Growing-sized rectangle criterion initially estimates the range with a rectangle of size E*E. Then, augment along the direction of the edge with a similar color of the middle of the rectangle. The default values of E are 16 and 32.
+
+4. remove_bad_image.ipynb: Eliminate raw images with problems from training data set.
+
