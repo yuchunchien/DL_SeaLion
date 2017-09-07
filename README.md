@@ -11,9 +11,7 @@ Our project takes images of sea lions as input and provides the counting results
 
 2. bad_id.txt: Ids of the raw images which have problems.
 
-3. parse_files.ipynb: Generate localization ground truth for training with different options. Although locations of each sea lion in the raw images have been labeled with dots, the range of each sea lion was not defined. Since the range is essential for training object identification algorithms, we define several types of generating criteria for localization ground truth. 
-
-* Fixed-sized square vs Growing-sized rectangle:
+3. parse_files.ipynb: Generate localization ground truth for training with different options. Although locations of each sea lion in the raw images have been labeled with dots, the range of each sea lion was not defined. Since the range is essential for training object identification algorithms, we define two types of generating criteria for localization ground truth, fixed-sized square and growing-sized rectangle.
 
 Fixed-sized square criterion estimates the range with a square of size D*D. The default values of D are 32 and 64. 
 
