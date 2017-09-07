@@ -1,4 +1,4 @@
-# Final project for "Deep Learning for Computer Vision, Speech, and Language"
+# Final project for "Deep Learning for Computer Vision and NLP"
 ## Project titile: 
 Animal Population Calculation
 
