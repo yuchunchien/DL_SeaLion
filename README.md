@@ -8,6 +8,6 @@ Our project takes images of sea lions as input and provides the counting results
 
 3. File Description:
 
-a) Crop_test_image.ipynb: Crop original pictures as fixed-size images. The default size of the cropped image is 416*416.
+a) Crop_test_image.ipynb: Crop original pictures as fixed-sized images. The default size of the cropped image is 416*416.
 
 b) bad_id.txt: Ids of the raw images which have problems.
